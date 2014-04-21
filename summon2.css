@@ -30,3 +30,7 @@ holdingsOnly label,
 .languageSwitcher {
     display: none !important;
 }
+
+.siteHeader .Logo img {
+    max-height: 48px !important;
+}

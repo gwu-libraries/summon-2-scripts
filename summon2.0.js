@@ -29,8 +29,7 @@ $(document).ready(function() {
   }
 
   // I want the logo to be a bit bigger
-  $(".siteHeader .Logo img").attr("//gvsu.edu/homepage/files/img/gvsu_logo.png");
-  $(".siteHeader .Logo img").css("margin-top","-1em;").css("max-height","48px");
+  $(".siteHeader .Logo img").attr("href", "//gvsu.edu/homepage/files/img/gvsu_logo.png");
 
   	//Track what type of content user actually click on (with GA)
   	$('div.inner').on('click','a[ng-class="linkClass"] , a.availabilityLink', function() {
