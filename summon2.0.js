@@ -28,7 +28,8 @@ if($("div.home").css("display") !== 'none') {
 }
 
 // I want the logo to be a bit bigger
-$(".siteHeader .Logo img").attr("//gvsu.edu/homepage/files/img/gvsu_logo.png").css("margin-top","-1em;").css("max-height","48px");
+$(".siteHeader .Logo img").attr("//gvsu.edu/homepage/files/img/gvsu_logo.png");
+$(".siteHeader .Logo img").css("margin-top","-1em;").css("max-height","48px");
 
 	//Track what type of content user actually click on (with GA)
 	$('div.inner').on('click','a[ng-class="linkClass"] , a.availabilityLink', function() {
