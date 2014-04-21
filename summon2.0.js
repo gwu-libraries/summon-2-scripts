@@ -3,7 +3,7 @@
 // for all the tips, help, and code!
 //
 
-var cssPath = 'http://localhost:8888/summon2.0/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
+var cssPath = '//labs.library.gvsu.edu/labs/summon2.0/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
 // Add custom styles
 $('head').append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon2.css" />');
 
