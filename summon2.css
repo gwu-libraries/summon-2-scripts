@@ -1,0 +1,32 @@
+
+/* Make Clear Refinements Link more noticeable */
+.clearRefinements {
+  background: #88b3da;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Make the chat button a normal size */
+.siteLinks>div.chat img {
+  max-height: none !important;
+  max-width: none !important;
+}
+
+/* Fix color contrast issues */
+holdingsOnly label,
+.searchInfo .metadata,
+.Filter .count,
+.topicSummary .from,
+.topicSummary .researchGuides .author {
+  color: #575757;
+}
+
+.searchInfo .metadata button {
+  color: #08c;
+}
+
+.languageSwitcher {
+    display: none !important;
+}
