@@ -12,15 +12,6 @@ $(document).ready(function() {
   $('div.searchBox div.queryBox span.caret').parent().attr('title','advanced search');
   	$('div.search div.queryBox span.caret').parent().attr('title','advanced search');
 
-  // Remove the text in availability links
-
-  var sillyLinkText,newText;
-  $("a.availabilityLink:contains(' Browse Similar')").each(function() {
-    sillyLinkText = $(this).text();
-    newText = sillyLinkText.replace('Browse Similar','');
-    $(this).text(newText);
-  });
-
   // Fix the homepage banner links, which are invisible because
   // they are white on a white background
   if($("div.home").css("display") !== 'none') {
@@ -52,6 +43,7 @@ $(document).ready(function() {
 
   	$('.advancedBtn').click(function() { logClickGA('clickOnInterface','Advanced Search'); });
 
+/*
   // If this is a book detail page, update the Request button to either
   // request the book from the shelf or from the ASRS
 
@@ -71,6 +63,17 @@ $(document).ready(function() {
         //alert(newHref);
      });
   }
+  */
+
+  // Remove the text in availability links
+
+  var sillyLinkText,newText;
+  $("a.availabilityLink:contains(' Browse Similar')").each(function() {
+    sillyLinkText = $(this).text();
+    newText = sillyLinkText.replace(' Browse Similar','');
+    $(this).text(newText);
+  });
+
 
   // Extract a bib Number from a Summon docID (thanks, Dave Pattern!)
   function libGetBibID(str) {

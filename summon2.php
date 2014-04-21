@@ -14,6 +14,7 @@ foreach($html->find('table#bib_items tr td[width=38%] a') as $element) {
 
     //var_dump($element);
 
+    // ASRS item
 		if (strpos($element,'asrs') !== false) {
       $link = $element->href;
       $url = 'http://library.catalog.gvsu.edu'. $link;
