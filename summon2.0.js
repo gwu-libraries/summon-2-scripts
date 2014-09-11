@@ -22,6 +22,10 @@ $(document).ready(function() {
   // I want the logo to be a bit bigger
   $(".siteHeader .Logo img").attr("src", "//gvsu.edu/homepage/files/img/gvsu_logo.png");
 
+	// Proquest has 2 links both labeled "Log in" that go to different places
+	// because they cannot do Internet. Fix that
+	$('form.flowLogin').find('input[type="submit"]').attr('title', 'Save and organize citations to make research and writing easier.').val('Log in to ProQuest Flow');
+
   	//Track what type of content user actually click on (with GA)
   	$('div.inner').on('click','a[ng-class="linkClass"] , a.availabilityLink', function() {
   		var libContentType = $(this).closest('div.summary').find('div.contentType span.ng-binding').text();
