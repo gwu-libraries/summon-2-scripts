@@ -8,7 +8,7 @@ $(document).ready(function() {
   // Add custom styles
   $('head').append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon2.css" />');
     
-  $('<a href="#" class="chat-button" onclick="openWin();">Chat Now</a><br/>').insertBefore(".siteLinks");
+  $(".siteLinks").prepend('<a href="#" class="chat-button" onclick="openWin();">Chat Now</a><br/>');
 
     function openWin() {
       var hash =  '6290b3d40228a9e708fa7066d01f56bf';
