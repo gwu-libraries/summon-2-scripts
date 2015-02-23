@@ -10,7 +10,6 @@ $(document).ready(function() {
 
   // Accessability titles
   $('div.searchBox div.queryBox span.caret').parent().attr('title','advanced search');
-  	$('div.search div.queryBox span.caret').parent().attr('title','advanced search');
 
   // Fix the homepage banner links, which are invisible because
   // they are white on a white background
