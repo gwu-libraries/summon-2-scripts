@@ -8,15 +8,10 @@ $(document).ready(function() {
   // Add custom styles
   $('head').append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon2.css" />');
     
-  $(".siteLinks").prepend('<a href="#" class="chat-button" onclick="openWin();">Chat Now</a><br/>');
-
-    function openWin() {
-      var hash =  '6290b3d40228a9e708fa7066d01f56bf';
-      myWindow = window.open("https://v2.libanswers.com/widget_standalone.php?hash="+hash, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=500, left=500, width=400, height=400");
-    // Opens a new window
-    }
-
-  // Accessability titles
+    setTimeout(function() {
+      $(".siteLinks").append('<a href="#" class="chat-button" onclick="openWin();">Chat Now</a><br/>');
+      console.log('About to add the chat button...');
+        // Accessability titles
   $('div.searchBox div.queryBox span.caret').parent().attr('title','advanced search');
 
   // Fix the homepage banner links, which are invisible because
@@ -33,6 +28,16 @@ $(document).ready(function() {
 	// because they cannot do Internet. Fix that
 	$('form.flowLogin').find('input[type="submit"]').attr('title', 'Save and organize citations to make research and writing easier.').val('Log in to ProQuest Flow');
 
+}, 1500);
+      
+
+    function openWin() {
+      var hash =  '6290b3d40228a9e708fa7066d01f56bf';
+      myWindow = window.open("https://v2.libanswers.com/widget_standalone.php?hash="+hash, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=500, left=500, width=400, height=400");
+    // Opens a new window
+    }
+
+  
   	//Track what type of content user actually click on (with GA)
   	$('div.inner').on('click','a[ng-class="linkClass"] , a.availabilityLink', function() {
   		var libContentType = $(this).closest('div.summary').find('div.contentType span.ng-binding').text();
