@@ -36,6 +36,8 @@ holdingsOnly label,
 	text-decoration: underline;
 }
 
+.chat-button {background:#eee;border: 1px solid #aaa;border-top: 1px solid #ccc;border-left: 1px solid #ccc;-moz-border-radius:.25em;-webkit-border-radius:.25em;border-radius:.25em;color: #444;display: inline-block;font-weight:bold;text-decoration:none;text-shadow: 0 1px rgba(255, 255, 255, .75);cursor: pointer;margin-bottom:1.25em;font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;padding: .333em .75em;font-size:1.2em;line-height:1.3125em;}
+
 @media screen and (min-width:1025px) {
 .siteHeader .Logo img {
     max-height: 48px !important;
