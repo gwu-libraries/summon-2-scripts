@@ -58,7 +58,9 @@ holdingsOnly label,
     background-position: 15% 50%;
 }
 
-.chat-button {background:#eee;border: 1px solid #aaa;border-top: 1px solid #ccc;border-left: 1px solid #ccc;-moz-border-radius:.25em;-webkit-border-radius:.25em;border-radius:.25em;color: #444 !important;display: block;font-weight:bold;text-decoration:none;text-shadow: 0 1px rgba(255, 255, 255, .75);cursor: pointer;font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;padding: .333em .75em;font-size:1.2em;line-height:1.3125em;float:right;margin-right:2%;position:relative;top:-2.1em;}
+.searchInfo {
+	margin: 0 -2.5em 0;
+}
 
 @media screen and (min-width:1025px) {
 .siteHeader .Logo img {
