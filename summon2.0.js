@@ -18,7 +18,6 @@ $(document).ready(function() {
   // they are white on a white background
   if($("div.home").css("display") !== 'none') {
     $("div.home").prepend('<div id="home-banner" style="height:6em;background-color:#0065a4;">&nbsp;</div>');
-    $("div.home").find(".Logo").css("margin-top","20%");
   }
 
   // I want the logo to be a bit bigger
