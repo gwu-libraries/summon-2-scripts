@@ -39,11 +39,12 @@ holdingsOnly label,
 #libchat_6290b3d40228a9e708fa7066d01f56bf button {
     font-weight: bold;
     border: 1px solid #333 !important;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: .5em 1em .5em 3em !important;
 	position: relative;
-	top: -2.1em;
+	top: -2.7em;
 	float: right;
+	margin-right: 2%;
 }
 
 #libchat_6290b3d40228a9e708fa7066d01f56bf button.libchat_online[style] {
