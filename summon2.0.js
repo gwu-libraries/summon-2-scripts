@@ -9,7 +9,7 @@ $(document).ready(function() {
   $('head').append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon2.css" />');
     
     setTimeout(function() {
-      $(".siteLinks").append('<a href="#" class="chat-button" onclick="openWin();">Chat Now</a><br/>');
+      $(".savedItemsFolderContainer").append('<a href="#" class="chat-button" onclick="openWin();">Chat Now</a><br/>');
       console.log('About to add the chat button...');
         // Accessability titles
   $('div.searchBox div.queryBox span.caret').parent().attr('title','advanced search');
