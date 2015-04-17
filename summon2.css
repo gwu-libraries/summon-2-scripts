@@ -58,10 +58,6 @@ holdingsOnly label,
     background-position: 15% 50%;
 }
 
-.header {
-	overflow: hidden;
-	height: 75px;
-}
 
 @media screen and (min-width:1025px) {
 .siteHeader .Logo img {
