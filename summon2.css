@@ -41,6 +41,8 @@ holdingsOnly label,
     border: 1px solid #333 !important;
     font-size: 1em;
     padding: .5em 1em .5em 3em !important;
+	position: relative;
+	right: -4em;
 }
 
 #libchat_6290b3d40228a9e708fa7066d01f56bf button.libchat_online[style] {
@@ -80,10 +82,9 @@ holdingsOnly label,
 	top: 0;
 }
 #libchat_6290b3d40228a9e708fa7066d01f56bf button {
-	position: relative;
 	top: -2.7em;
 	float: right;
 	margin-right: 2%;
-	
+	right: 0;
 }
 }
