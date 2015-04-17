@@ -26,15 +26,17 @@ $(document).ready(function() {
 	// Proquest has 2 links both labeled "Log in" that go to different places
 	// because they cannot do Internet. Fix that
 	$('form.flowLogin').find('input[type="submit"]').attr('title', 'Save and organize citations to make research and writing easier.').val('Log in to ProQuest Flow');
-
-}, 1500);
-      
-
-    function openWin() {
+	
+	function openWin() {
       var hash =  '6290b3d40228a9e708fa7066d01f56bf';
       myWindow = window.open("https://v2.libanswers.com/widget_standalone.php?hash="+hash, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=500, left=500, width=400, height=400");
     // Opens a new window
     }
+
+}, 1500);
+      
+
+    
 
   
   	//Track what type of content user actually click on (with GA)
