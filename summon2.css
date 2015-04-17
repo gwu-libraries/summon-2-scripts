@@ -58,8 +58,9 @@ holdingsOnly label,
     background-position: 15% 50%;
 }
 
-.searchInfo {
-	margin: 0 -2.5em 0;
+.header {
+	overflow: hidden;
+	height: 75px;
 }
 
 @media screen and (min-width:1025px) {
