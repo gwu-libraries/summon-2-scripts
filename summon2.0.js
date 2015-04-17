@@ -18,7 +18,13 @@ $(document).ready(function() {
 
     
     setTimeout(function() {
-      $(".savedItemsFolderContainer").append('<a href="#" class="chat-button" onclick="openWin();">Chat Now</a><br/>');
+      $(".savedItemsFolderContainer").append('<div id="libchat_6290b3d40228a9e708fa7066d01f56bf"></div>');
+	  var chatScript = document.createElement('script');
+	  chatScript.type = 'text/javascript';
+	  chatScript.src = '//v2.libanswers.com/load_chat.php?hash=6290b3d40228a9e708fa7066d01f56bf';
+	  document.body.appendChild(chatScript);
+	  
+
       console.log('About to add the chat button...');
         // Accessability titles
   $('div.searchBox div.queryBox span.caret').parent().attr('title','advanced search');
