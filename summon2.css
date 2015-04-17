@@ -63,6 +63,11 @@ holdingsOnly label,
 		position: relative;
 		top: 35px;
 	}
+	
+	#main .topicSummary .inner {
+		position: static !important;
+		top: 0;
+	}
 }
 
 @media screen and (min-width:1025px) {
@@ -73,5 +78,9 @@ holdingsOnly label,
 #main .inner {
 	position: relative;
 	top: 19px;
+}
+#main .topicSummary .inner {
+	position: static !important;
+	top: 0;
 }
 }
