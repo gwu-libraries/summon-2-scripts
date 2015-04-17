@@ -3,12 +3,6 @@
 // for all the tips, help, and code!
 //
 
-function openWin() {
-    var hash =  '6290b3d40228a9e708fa7066d01f56bf';
-    myWindow = window.open("https://v2.libanswers.com/widget_standalone.php?hash="+hash, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=500, left=500, width=400, height=400");
-  // Opens a new window
-  }
-
 $(document).ready(function() {
 
   var cssPath = '//gvsuliblabs.com/labs/summon2.0/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
