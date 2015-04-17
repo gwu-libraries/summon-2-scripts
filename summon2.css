@@ -58,10 +58,20 @@ holdingsOnly label,
     background-position: 15% 50%;
 }
 
+@media screen and (min-width:701px) and (max-width:1024px) {
+	#main .inner {
+		position: relative;
+		top: 35px;
+	}
+}
 
 @media screen and (min-width:1025px) {
 .siteHeader .Logo img {
     max-height: 48px !important;
     margin-top: -1em;
+}
+#main .inner {
+	position: relative;
+	top: 19px;
 }
 }
