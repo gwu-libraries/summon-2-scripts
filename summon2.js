@@ -9,7 +9,7 @@ $(document).ready(function() {
   // Fix the homepage banner links, which are invisible because
   // they are white on a white background
   if($("div.home").css("display") !== 'none') {
-    $("div.home").prepend('<div id="home-banner" style="height:6em;background-color:#0065a4;">&nbsp;</div>');
+    $("div.home").prepend('<div id="home-banner" style="height:5.75em;background-color:#005581;">&nbsp;</div>');
   }
 
 });
