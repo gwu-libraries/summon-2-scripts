@@ -3,6 +3,6 @@
 $(document).ready(function() {
 
   // Add our sylesheet to all pages
-  $('head').append('<link rel="stylesheet" type="text/css" href="http://gwappassets-prod.wrlc.org/app-assets/summon-2.0-scripts/summon2.css" />');
+  $('head').append('<link rel="stylesheet" type="text/css" href="http://gwappassets-prod.wrlc.org/app-assets/summon-2-scripts/summon2.css" />');
 
 });
