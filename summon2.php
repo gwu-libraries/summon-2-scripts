@@ -1,5 +1,7 @@
 <?php
 
+// This is from the GVSU fork, not using it in our implementation
+
 header("Access-Control-Allow-Origin: *");
 require('../libs/simple_html_dom.php');
 
