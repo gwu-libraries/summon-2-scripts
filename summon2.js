@@ -8,8 +8,11 @@ $(document).ready(function() {
 
   // Fix the homepage banner links, which are invisible because
   // they are white on a white background
-  if($("div.home").css("display") !== 'none') {
-    $("div.home").prepend('<div id="home-banner" style="height:5.75em;background-color:#005581;">&nbsp;</div>');
-  }
+  // needs to wait until angular has time to apply classes
+  setTimeout(function() {
+    if($("div.home").css("display") !== 'none') {
+      $("div.home").prepend('<div id="home-banner" style="height:5em;background-color:#005581;">&nbsp;</div>');
+    }
+  }, 1000);
 
 });
