@@ -1,5 +1,8 @@
 /* everything commented out to start clean -- Christian A. */
 
+/* (gw) fix white-on-white menu links in mobile fly-out */
+#linksMenu .siteLinks a, #linksMenu .siteLinks button, #linksMenu .siteLinks input {color: #06c !important;}
+
 /* Make Clear Refinements Link more noticeable */
 /*.clearRefinements {
   background: #88b3da;
