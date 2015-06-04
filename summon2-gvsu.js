@@ -1,3 +1,5 @@
+// original version from GVSU we formed from 
+
 //
 // Thanks to Fairfield University and University of Huddersfield
 // for all the tips, help, and code!
