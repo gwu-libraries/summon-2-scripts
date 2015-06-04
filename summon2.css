@@ -1,62 +1,63 @@
+/* everything commented out to start clean -- Christian A. */
 
 /* Make Clear Refinements Link more noticeable */
-.clearRefinements {
+/*.clearRefinements {
   background: #88b3da;
   font-size: 1.1em;
   font-weight: bold;
   padding: 1em;
   text-align: center;
-}
+} */
 
 /* Make the chat button a normal size */
-.siteLinks>div.chat img {
+/*.siteLinks>div.chat img {
   max-height: none !important;
   max-width: none !important;
-}
+} */
 
 /* Fix color contrast issues */
-holdingsOnly label,
+/*holdingsOnly label,
 .searchInfo .metadata,
 .Filter .count,
 .topicSummary .from,
 .topicSummary .researchGuides .author {
   color: #575757;
-}
+} */
 
-.searchInfo .metadata button {
+/*.searchInfo .metadata button {
   color: #08c;
-}
+} */
 
-.languageSwitcher {
+/*.languageSwitcher {
     display: none !important;
-}
+} */
 
-.vpnbanner a {
+/*.vpnbanner a {
 	/* Why would you make this not look like a link? */
-	text-decoration: underline;
-}
+	/* text-decoration: underline; gw */
+}*/
 
-#libchat_6290b3d40228a9e708fa7066d01f56bf button {
+/*#libchat_6290b3d40228a9e708fa7066d01f56bf button {
     font-weight: bold;
     border: 1px solid #333 !important;
     font-size: 1em;
     padding: .5em 1em .5em 3em !important;
 	position: relative;
 	right: -4em;
-}
+} gw */
 
-#libchat_6290b3d40228a9e708fa7066d01f56bf button.libchat_online[style] {
+/* #libchat_6290b3d40228a9e708fa7066d01f56bf button.libchat_online[style] {
     background-image: url(//gvsu.edu/cms3/assets/741ECAAE-BD54-A816-71DAF591D1D7955C/chat-online.png) !important;
     background-repeat: no-repeat;
     background-position: 15% 50%;
-}
-#libchat_6290b3d40228a9e708fa7066d01f56bf button.libchat_offline[style] {
+}*/
+/*#libchat_6290b3d40228a9e708fa7066d01f56bf button.libchat_offline[style] {
      background-image: url(//gvsu.edu/cms3/assets/741ECAAE-BD54-A816-71DAF591D1D7955C/chat-offline.png) !important;
     background-repeat: no-repeat;
     background-position: 15% 50%;
-}
+}*/
 
-@media screen and (min-width:701px) and (max-width:1024px) {
+/*@media screen and (min-width:701px) and (max-width:1024px) {
 	#main .inner {
 		position: relative;
 		top: 35px;
@@ -66,9 +67,9 @@ holdingsOnly label,
 		position: static !important;
 		top: 0;
 	}
-}
+}*/
 
-@media screen and (min-width:1025px) {
+/*@media screen and (min-width:1025px) {
 .siteHeader .Logo img {
     max-height: 48px !important;
     margin-top: -1em;
@@ -87,4 +88,4 @@ holdingsOnly label,
 	margin-right: 2%;
 	right: 0;
 }
-}
+}*/
