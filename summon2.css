@@ -13,10 +13,10 @@
 } */
 
 /* Make the chat button a normal size */
-/*.siteLinks>div.chat img {
+.siteLinks>div.chat img {
   max-height: none !important;
   max-width: none !important;
-} */
+} 
 
 /* Fix color contrast issues */
 /*holdingsOnly label,
@@ -27,13 +27,23 @@
   color: #575757;
 } */
 
-/*.searchInfo .metadata button {
+.searchInfo .metadata button {
   color: #08c;
-} */
+} 
 
-/*.languageSwitcher {
+.languageSwitcher {
+    display: none !important;
+} 
+
+/* If necessary, this will hide the default Feedback link (mc) 
+.feedback {
     display: none !important;
 } */
+
+/* This is supposed to fix the aggressive truncation of facets. It doesn't (mc) */
+.facetFields .Filter a { 
+   text-overflow: clip; 
+}
 
 /*.vpnbanner a {
 	/* Why would you make this not look like a link? */
