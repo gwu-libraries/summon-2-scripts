@@ -13,7 +13,7 @@ $(document).ready(function() {
     if($("div.home").css("display") !== 'none') {
       $("div.home").prepend('<div id="home-banner" style="height:5em;background-color:#005581;">&nbsp;</div>');
     }
-    $( "<h1 style='color:red'>INSERTING THIS</h1>" ).insertAfter( ".siteLinks" );
+    $( "<div class='gwLinks'>INSERTING THIS</div>" ).insertAfter( ".siteLinks" );
   }, 1000);
 
   // Change Feedback link to include URL to pass to Google Form 
@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 // testing add replacement div with links
 
-  $( "<h1>TEST THIS</h1>" ).insertAfter( ".siteLinks" );
+  $( "<div class='gwLinks'><h1>TEST THIS</h1></div>" ).insertAfter( ".siteLinks" );
   //$('.siteLinks').prepend('<h1>TEST THIS</h1>');
 
 // function ended here, old articlesplus added here
