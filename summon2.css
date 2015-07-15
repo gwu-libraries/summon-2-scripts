@@ -23,6 +23,9 @@
   padding: .25em .5em 0;
 }
 
+/* (gw) home banner styling */
+#home-banner {height:5em;background-color:#005581;}
+
 /* Make Clear Refinements Link more noticeable */
 /*.clearRefinements {
   background: #88b3da;

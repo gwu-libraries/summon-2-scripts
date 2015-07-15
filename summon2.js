@@ -11,9 +11,9 @@ $(document).ready(function() {
   // needs to wait until angular has time to apply classes
   setTimeout(function() {
     if($("div.home").css("display") !== 'none') {
-      $("div.home").prepend('<div id="home-banner" style="height:5em;background-color:#005581;">&nbsp;</div>');
+      $("div.home").prepend('<div id="home-banner">&nbsp;</div>');
     }
-    $( "<div class='gwLinks'>INSERTING THIS</div>" ).insertAfter( ".siteLinks" );
+    $( '<div class="gwLinks"><a href="http://www.library.gwu.edu/help/reference/ask-a-librarian">Ask a Librarian</a> | <a href="http://findit.library.gwu.edu/catalog">Catalog</a> | <a href="http://libguides.gwu.edu/databases">Subject Databases</a> | <a href="http://www.library.gwu.edu/howdoi/aboutarticlesplus">About</a> | <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDJBVlR3MHMzS3pDeWRPYU5vNkh0Z2c6MQ"  target="_blank">Found a Problem?</a></div>' ).insertAfter( ".siteLinks" );
   }, 1000);
 
   // Change Feedback link to include URL to pass to Google Form 
