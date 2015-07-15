@@ -6,6 +6,9 @@ $(document).ready(function() {
   // Add our sylesheet to all pages
   $('head').append('<link rel="stylesheet" type="text/css" href="http://gwappassets-prod.wrlc.org/app-assets/summon-2-scripts/summon2.css" />');
 
+  // get chat box (because it's inside the default Summon links we're no longer displaying (display:none;)        
+  //var chatimg = $(".chat");
+
   // Need to wait until angular has time to apply changes
   setTimeout(function() {
     // Fix the homepage banner links, which are invisible because
@@ -21,9 +24,19 @@ $(document).ready(function() {
     $('.gwLinks a').last().attr('href', function() {
       return this.href + '&entry_7=' + encodeURIComponent(location.href);
     });
+
+    // testing var inside function (which adds timeout)        
+    //var chatimg = $(".chat");
+
+    // add chat link bacik
+    //$(".gwLinks").append(chatimg);
+
+    // empty flow login form         
+    //$(".flowLogin .ng-pristine .ng-valid").empty();
+
   }, 1000);
 
-// functions ended here, old articlesplus added here
+// end new function here, old articlesplus added here
 // });
 
 //$(document).ready(function() {
