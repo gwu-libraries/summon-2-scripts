@@ -17,11 +17,13 @@
 .siteLinks {display: none;}
 .gwLinks {
   color: #fff;
+  font-size: 1em;
   position: fixed;
   right: 0;
   z-index: 1032;
   padding: .25em .5em 0;
 }
+.gwLinks a {color:#fff;}
 
 /* (gw) home banner styling */
 #home-banner {height:5em;background-color:#005581;}
