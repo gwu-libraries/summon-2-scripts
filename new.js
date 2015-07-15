@@ -1,48 +1,17 @@
-// This is forked from GVSU, who in turn thanked Fairfield University 
-// and University of Huddersfield for their code and help
-
 $(document).ready(function() {
-
-  // Add our sylesheet to all pages
-  $('head').append('<link rel="stylesheet" type="text/css" href="http://gwappassets-prod.wrlc.org/app-assets/summon-2-scripts/summon2.css" />');
-
-  // Fix the homepage banner links, which are invisible because
-  // they are white on a white background
-  // needs to wait until angular has time to apply classes
-  setTimeout(function() {
-    if($("div.home").css("display") !== 'none') {
-      $("div.home").prepend('<div id="home-banner" style="height:5em;background-color:#005581;">&nbsp;</div>');
-    }
-    $( "<h1 style='color:red'>INSERTING THIS</h1>" ).insertAfter( ".siteLinks" );
-  }, 1000);
-
-  // Change Feedback link to include URL to pass to Google Form 
-  $('.feedback').attr('href', function() {
-    return this.href + '&entry_7=' + encodeURIComponent(location.href);
-  });
-
-// testing add replacement div with links
-
-  $( "<h1>TEST THIS</h1>" ).insertAfter( ".siteLinks" );
-  //$('.siteLinks').prepend('<h1>TEST THIS</h1>');
-
-// function ended here, old articlesplus added here
-// });
-
-//$(document).ready(function() {
 	// get chat box before emptying link div	
 	var chatimg = $(".chat.top");
 	// empty topbar link div	
-	$(".grid .hidden-tablet .hidden-phone .siteLinks").empty();
+	$("#topbar .link").empty();
         // Add Ask a Librarian and Classic Catalog links
-	$('.siteLinks .link').prepend('<a href="http://www.library.gwu.edu/help/reference/ask-a-librarian">Ask a Librarian</a> | <a href="http://findit.library.gwu.edu/catalog">Catalog</a> | <a href="http://libguides.gwu.edu/databases">Subject Databases</a> | <a href="http://www.library.gwu.edu/howdoi/aboutarticlesplus">About</a> | <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDJBVlR3MHMzS3pDeWRPYU5vNkh0Z2c6MQ"  target="_blank">Found a Problem?</a>&nbsp;&nbsp;');
+	$('#topbar .link').prepend('<a href="http://www.library.gwu.edu/help/reference/ask-a-librarian">Ask a Librarian</a> | <a href="http://findit.library.gwu.edu/catalog">Catalog</a> | <a href="http://libguides.gwu.edu/databases">Subject Databases</a> | <a href="http://www.library.gwu.edu/howdoi/aboutarticlesplus">About</a> | <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDJBVlR3MHMzS3pDeWRPYU5vNkh0Z2c6MQ"  target="_blank">Found a Problem?</a>&nbsp;&nbsp;');
 	
 	// Change Feedback link to include URL to pass to Google Form 
-	$('.siteLinks .link a').last().attr('href', function() {
+	$('#topbar .link a').last().attr('href', function() {
 		return this.href + '&entry_7=' + encodeURIComponent(location.href);	
 	}); 
 	// add chat link back
-	$(".siteLinks .link").append(chatimg);
+	$("#topbar .link").append(chatimg);
 
 	// Change message about number of results and add search tip	
 	var count = $('#summary .highlight:last').html( );
