@@ -43,31 +43,13 @@
 }
 .gwLinks a {color:#fff;}
 
-/* (gw) hide header links in narrow view (they move to 'mobile' menu) */
-/*@media screen and (max-width:1024px) {
-  #linksMenu.siteLinks {display:none;}
-  #linksMenu.gwLinks {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    right: 0;
-  }
-  .gwLinks {
-    height: auto;
-    width: auto;
-    text-align: right;
-    z-index: 1032;
-  }
-  .gwLinks a {color: red;}
-}*/
-
 /* (gw) preserve header padding for our custom links */
 @media screen and (max-width:1024px) {
   .siteHeader {padding-top:2em;}
 }
 @media screen and (max-width:699px) {
-  .siteHeader {padding-top:3em;}
+  .siteHeader {padding-top:3.5em;}
+  .gwLinks {font-size:1.2em;}
 }
 
 /* (gw) home banner styling */
