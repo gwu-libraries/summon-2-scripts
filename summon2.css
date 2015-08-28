@@ -97,6 +97,7 @@
    text-overflow: clip; 
 }
 
+/* hide the secondary button in the Citation Details page, called Get Journal Article, set in Summon using the A&I Details setting. */
 .documentActionsContainer .documentActions a.btn.secondary {
    display: none;
 } 
