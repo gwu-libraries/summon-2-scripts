@@ -97,6 +97,10 @@
    text-overflow: clip; 
 }
 
+.documentActionsContainer .documentActions a.btn.secondary {
+   display: none;
+} 
+
 /*.vpnbanner a {
 	/* Why would you make this not look like a link? */
 	/* text-decoration: underline; gw */
