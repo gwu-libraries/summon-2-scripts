@@ -7,12 +7,11 @@
 .siteLinks>div.chat img {margin-top:6px;}
 
 /* (gw) tweak logo image (temp while using the combined 1.0/2.0 logo */
-.siteHeader .Logo img {
+/* .siteHeader .Logo img {
   padding: 2px;
   background: #fff;
-  border-radius: .2em;
-  /*margin-top: -1em;*/
-}
+  border-radius: .2em; 
+}*/
 
 /* (gw) adjust logo up in middle views */
 @media screen and (max-width:1024px) {
