@@ -4,7 +4,7 @@
 $(document).ready(function() {
 
   // Add our sylesheet to all pages
-  $('head').append('<link rel="stylesheet" type="text/css" href="http://gwappassets-prod.wrlc.org/app-assets/summon-2-scripts/summon2.css" />');
+  $('head').append('<link rel="stylesheet" type="text/css" href="https://assets.library.gwu.edu/app-assets/summon-2-scripts/summon2.css" />');
 
   // Get chat box because it's inside the default Summon links we're no longer displaying (display:none;)        
   //var chatimg = $(".chat");
